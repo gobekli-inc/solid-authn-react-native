@@ -1,5 +1,5 @@
 {
-  "name": "solid-authn-react-native",
+  "name": "@gobekli-inc/solid-authn-react-native",
   "version": "1.0.0",
   "description": "Solid-OIDC auth for React-Native",
   "main": "dist/index.js",
@@ -12,14 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/o-development/solid-authn-react-native.git"
+    "url": "git+https://github.com/gobekli-inc/solid-authn-react-native.git"
   },
-  "author": "Jackson Morgan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/o-development/solid-authn-react-native/issues"
+    "url": "https://github.com/gobekli-inc/solid-authn-react-native/issues"
   },
-  "homepage": "https://github.com/o-development/solid-authn-react-native#readme",
+  "homepage": "https://github.com/gobekli-inc/solid-authn-react-native",
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "@types/react-native": "^0.66.2",
