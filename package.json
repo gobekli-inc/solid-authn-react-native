@@ -4,8 +4,8 @@
   "description": "Solid-OIDC auth for React-Native",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch",
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch",
     "test": "jest --coverage",
     "docs": "typedoc",
     "prepublishOnly": "npm run test && npm run build && npm run docs"
