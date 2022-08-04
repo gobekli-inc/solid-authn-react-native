@@ -3,11 +3,12 @@
     "target": "es5",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "dist",
+    "rootDir": "lib",
     "strict": true,
     "esModuleInterop": true,
     "downlevelIteration": true,
     "typeRoots": ["@types", "./node_modules/@types"]
   },
-  "include": ["./lib/**/*"]
+  "include": ["lib", "lib/**/*"]
 }
