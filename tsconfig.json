@@ -6,6 +6,8 @@
     "outDir": "dist",
     "rootDir": "lib",
     "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "downlevelIteration": true,
